@@ -32,6 +32,6 @@ I also am a 3d artists, that you can see more about on my Projects page. I am 10
 
 Right now it is a hobby (that I have a Bachelor Degree from [Full Sail](https://www.fullsail.edu/) in) but I would be thrilled to turn it into a side hustle. 
 
-Thinking of side hustles though, I also sell T-shirts on Tee-public and Redbubble some of the ideas are silly and niche but I'm happy if it supports my WoW subscription. 
+Thinking of side hustles though, I also sell T-shirts on [Tee-public](https://www.teepublic.com/user/thebruce13) and Redbubble some of the ideas are silly and niche but I'm happy if it supports my WoW subscription. 
 
-![](/images/12387055_4.jpg)
+[![Drawing of hands holding a mug that says "Coffe Grounds Me" above it.](/images/12387055_4.jpg 'Drawing of hands holding a mug that says "Coffe Grounds Me" above it.')](https://www.teepublic.com/t-shirt/12387055-coffee-grounds-me?store_id=125496 'Drawing of hands holding a mug that says "Coffe Grounds Me" above it.')
