@@ -25,8 +25,10 @@ You might be curious why I went with a theme for my website instead of "making i
 
 I also am a 3d artists, that you can see more about on my Projects page. I am 100% ready to talk about the finer points in 3d films.
 
-  
-![Shank from Wreck it Wralph rolling up sleeves](/images/tumblr_psu4td7bb51tebpzgo3_250.gif)
+>   
+> ![Shank from Wreck it Wralph rolling up sleeves](/images/tumblr_psu4td7bb51tebpzgo3_250.gif)
+>
+> Like this shot right here had me up out of my seat because of the cloth simulation that Shank does like it's no big deal. Blew my mind.
 
 Right now it is a hobby (that I have a Bachelor Degree from [Full Sail](https://www.fullsail.edu/) in) but I would be thrilled to turn it into a side hustle. 
 
