@@ -1,33 +1,4 @@
 ---
 label: Data
 hide_body: false
-fields:
-- name: title
-  type: text
-  config:
-    required: false
-  label: Title
-  description: Title of tshirt
-- name: description
-  type: text
-  config:
-    required: false
-  label: Description
-  description: Describe the shirt
-- name: tpurl
-  type: text
-  config:
-    required: false
-  label: Tee Public Url
-  description: Link to the site on Tee Public
-- name: rburl
-  type: text
-  config:
-    required: false
-  label: Red Bubble URL
-  description: Link to shirt on Red Bubble
-- name: tshirt_images
-  type: image_gallery
-  config: {}
-  label: Tshirt Images
-  description: Images of the design.
+fields: []
