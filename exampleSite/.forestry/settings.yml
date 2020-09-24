@@ -7,7 +7,6 @@ sections:
 - type: document
   path: exampleSite/data/tshirts.json
   label: T Shirts
-  match: "**/*"
 - type: heading
   label: Blog Post
 - type: directory
