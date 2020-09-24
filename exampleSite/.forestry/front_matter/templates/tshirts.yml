@@ -35,3 +35,5 @@ fields:
   config: {}
   label: Images
   description: 'Images to show off the design of the shirt. '
+pages:
+- tshirt/coffe-grounds-me.md
