@@ -1,4 +1,37 @@
 ---
 label: Tshirts
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: Title of the shirts
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
+  description: Description of the shirt
+- name: tp_link
+  type: text
+  config:
+    required: false
+  label: TeePublic Link
+  description: Link to Tee Public shirt
+- name: rb_link
+  type: text
+  config:
+    required: false
+  label: Red Bubble Link
+  description: Link to shirt on Red Bubble
+- name: images
+  type: image_gallery
+  config: {}
+  label: Images
+  description: 'Images to show off the design of the shirt. '
