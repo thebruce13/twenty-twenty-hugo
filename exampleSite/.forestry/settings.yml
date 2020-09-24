@@ -13,6 +13,13 @@ sections:
   match: "**/*"
   templates:
   - post
+- type: directory
+  path: tshirt
+  label: Tshirts
+  create: all
+  match: "**/*"
+  templates:
+  - tshirts
 - type: heading
   label: Others Pages
 - type: directory
