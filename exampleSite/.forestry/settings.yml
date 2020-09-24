@@ -4,9 +4,6 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: document
-  path: exampleSite/data/tshirts.json
-  label: T Shirts
 - type: heading
   label: Blog Post
 - type: directory
