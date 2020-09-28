@@ -11,9 +11,6 @@ title = "Twenty Twenty Hugo"
 [markup.goldmark.renderer]
 unsafe = true
 [[menu.desktop]]
-name = "T-shirts"
-weight = 2
-[[menu.desktop]]
 URL = "contact"
 name = "Contact"
 weight = 1
