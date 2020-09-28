@@ -3,7 +3,6 @@ author = ["Bruce"]
 categories = ["art"]
 date = 2020-09-28T16:00:00Z
 description = "My first blog post and a short intro into what I am doing."
-draft = true
 image = "/images/athena-room-cycles.png"
 tags = []
 title = "A Journey Begins"
