@@ -1,7 +1,7 @@
 +++
 author = ["Bruce"]
 categories = ["art"]
-date = 2020-09-28T04:00:00Z
+date = 2020-09-28T16:00:00Z
 description = "My first blog post and a short intro into what I am doing."
 draft = true
 image = "/images/athena-room-cycles.png"
@@ -17,6 +17,4 @@ I want to explore CG, Web Development, and Game Development/Design here. Current
 
 ## My First Render
 
-The heading image here is my first image from trying to learn Architectural Visualization. I watched this video from the Blender Guru.
-
-<iframe width="560" height="315" src="[https://www.youtube.com/embed/wrzSrjAY69c](https://www.youtube.com/embed/wrzSrjAY69c "https://www.youtube.com/embed/wrzSrjAY69c")" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+The heading image here is my first image from trying to learn Architectural Visualization. I watched [How to Make Interiors in Blender (Tutorial) by the Blender Guru](https://youtu.be/wrzSrjAY69c). And like, it looks kinda cool but in reality it is beginners work, and that is what I am at this point. Maybe an advanced beginner. I know a lot of the software but producing production quality results is beyond me. 
