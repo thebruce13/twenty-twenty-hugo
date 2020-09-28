@@ -7,7 +7,7 @@ languageName = "En"
 paginate = "6"
 summaryLength = "10"
 theme = "twentytwenty"
-title = "Twenty Twenty Hugo"
+title = "Bruce Brotherton"
 [markup.goldmark.renderer]
 unsafe = true
 [[menu.desktop]]
@@ -40,7 +40,7 @@ home = ["HTML", "RSS", "JSON"]
 author = "Themefisher"
 description = "This is meta description"
 [params.banner]
-heading = "The New UMoMA Opens its Doors"
+heading = "Bruce's Backpack of Ideas"
 image = "images/2020-landscape-1-2.png"
 [params.blog]
 heading = "The premier destination for modern art in Northern Sweden. Open from 10 AM to 6 PM every day during the summer months."
