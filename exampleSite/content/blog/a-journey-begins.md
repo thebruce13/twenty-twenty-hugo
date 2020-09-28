@@ -16,9 +16,9 @@ I want to explore CG, Web Development, and Game Development/Design here. Current
 
 ### My First Render
 
-The heading image here is my first image from trying to learn Architectural Visualization. I watched [How to Make Interiors in Blender (Tutorial) by the Blender Guru](https://youtu.be/wrzSrjAY69c). And like, it looks kinda cool but in reality it is beginners work, and that is what I am at this point. Maybe an advanced beginner. I know a lot of the software but, producing production quality results is beyond me. 
+The heading image here is my first image from trying to learn Architectural Visualization. I watched [How to Make Interiors in Blender (Tutorial) by the Blender Guru](https://youtu.be/wrzSrjAY69c). And like, it looks kinda cool but in reality it is beginners work, and that is what I am at this point. Maybe an advanced beginner. I know a lot of the software but, producing production quality results is beyond me.
 
-I think if I ever get to a point where I can do this for a living it will be important to look back at this and see where I've started. Honestly, If you wanted my true beginnings. You can see my [2008 Demo Reel on YouTube](https://youtu.be/MD23P6i-18Q). It is still probably my best work. Though I have to admit that I did work in the industry for about 9 months doing Archvis. However, I was young and didn't know what I was really doing. I feel like I have a better understanding of it and what quality results look like and I'm excited to get there one day.
+I think if I ever get to a point where I can do this for a living it will be important to look back at this and see where I've started. Honestly, If you wanted my true beginnings, you can see my [2008 Demo Reel on YouTube](https://youtu.be/MD23P6i-18Q). It is still probably my best work. Though I have to admit that I did work in the industry for about 9 months doing Archvis. However, I was young and didn't know what I was really doing. I feel like I have a better understanding of it and what quality results look like and I'm excited to get there one day.
 
 ### Working on this Website
 
@@ -30,7 +30,7 @@ And who doesn't?! Right? I have like three ideas in my head and I would like to 
 
 ### Lets make a video game
 
-My childhood best friend and I have always had the dream of making our own video game and even found a gaming studio. Sadly we both went to Full Sail for Computer Animation and he later got a degree in Computer Science while I depended on my dabbling with websites in the 90s to support me (so far so good!). We hope to one day come back around to getting a game studio going. I am confident I can make the 3d art for it. But I am pretty sure I'm going to need to depend on him to actually program the thing. 
+My childhood best friend and I have always had the dream of making our own video game and even found a gaming studio. Sadly we both went to Full Sail for Computer Animation and he later got a degree in Computer Science while I depended on my dabbling with websites in the 90s to support me (so far so good!). We hope to one day come back around to getting a game studio going. I am confident I can make the 3d art for it. But I am pretty sure I'm going to need to depend on him to actually program the thing.
 
 ## That's all for now
 
