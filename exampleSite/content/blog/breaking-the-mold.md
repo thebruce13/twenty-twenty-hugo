@@ -32,4 +32,12 @@ Okay, so what I wanted to accomplish is having a section where you could put in 
     	<p>More Content</p>
     </div>
 
-This will get the job done and have all the text line up nicely inside of the established max width of wrapper. But this adds a lot of complexity to the HTML. Thankfully we can fix it with some underused and super powerful attributes. Namely the inherit attribute and pseudo-selectors. 
+This will get the job done and have all the text line up nicely inside of the established max width of wrapper. But this adds a lot of complexity to the HTML. Thankfully we can fix it with some underused and super powerful attributes, inherit attribute and pseudo-selectors. 
+
+The idea we are going to run with is that we can inherit down the background attribute to the pseudo-selectors and set them up to fill the whole width of the window. Ending up with some structure that looks like this
+
+    <div class="wrapper">
+    	<p>Some Content</p>
+        <p style="background-color"#ca7">Full Width Content</p>
+        <p>More Content</p>
+    </div>
