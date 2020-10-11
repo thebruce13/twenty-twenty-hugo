@@ -1,7 +1,7 @@
 +++
 author = ["Bruce"]
 categories = ["Font End"]
-date = 2020-10-11T04:00:00Z
+date = 2020-10-11T14:00:00Z
 description = "How to break out of the restrictions of a column when using a framework."
 image = "/images/busting-columns.png"
 tags = ["CSS"]
