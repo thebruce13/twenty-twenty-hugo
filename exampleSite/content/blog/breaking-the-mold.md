@@ -166,6 +166,6 @@ This will make it match up with our `::after` but there is one thing off, becaus
 }
 ```
 
-Now that you have read this I suggest you see the [Codepen ]( "https://codepen.io/brucebrotherton/pen/ZgxGad")for this project too see how it looks and experiment with the code. You'll also see some efficiencies to make the code a little shorter.
+Now that you have read this I suggest you see the [Codepen ]( "https://codepen.io/brucebrotherton/pen/ZgxGad")for this project to see how it looks and experiment with the code. You'll also see some efficiencies to make the code a little shorter as well.
 
 Side Note: I didn't even think of calling this main image a **FLEX**box until halfway through writing this.
