@@ -52,7 +52,7 @@ I'll go through the steps and guide you through how I got the content to break t
 
 ### Set up the wrapper breaker.
 
-Alright, so assuming we have the same structure above, we will need to do some work with the `break-wrapper` class. First we are going to disguise the element to make it look like it doesn't have a background image at all. 
+Alright, so assuming we have the same structure above, we will need to do some work with the `break-wrapper` class. First we are going to disguise the element to make it look like it doesn't have a background image at all.
 
 ```css
 .break-wrapper{
@@ -105,9 +105,9 @@ Now that our `break-wrapper` class has effectively no background showing and can
 
 The cool thing about this is we don't need to put the pseudo content into the HTML on the page. And because we are using them as blank elements they are going to work perfect.
 
-We are going to start with the `::after` pseudo element because it will be the one that displays the background image. 
+We are going to start with the `::after` pseudo element because it will be the one that displays the background image.
 
-What we want to accomplish is looking to the `::after`'s parent to see what background they are using and bring that into itself. The way we do that is to set the background-image to inherit. 
+What we want to accomplish is looking to the `::after`'s parent to see what background they are using and bring that into itself. The way we do that is to set the background-image to inherit.
 
 ```css
 .break-wrapper::after {
@@ -143,7 +143,7 @@ So far our pseduo element looks like this. A good start but not quite done.
 
 Now we have the background image set on our pseudo-element. But wait, we still can't see it! The problem is, we didn't tell it to take up any space and since the content is blank it won't show, the same way an empty `<div>` won't appear.
 
-Lets go ahead and define the size of it. 
+Lets go ahead and define the size of it.
 
 ```css
 .break-wrapper::after {
@@ -152,7 +152,7 @@ Lets go ahead and define the size of it.
  }
 ```
 
-We used a fancy unit called [Viewport Widths](https://alligator.io/css/viewport-units/) here. This will ensure that our background takes up the full width of the screen, not it's container. Now this isn't the final version because `height: 100%` doesn't do anything to an element normally. It is usually because its hard for the browser to define how that 100% will be calculated. So, it will be nothing. There is a way around this, and that is setting the `::after` to `position: absolute` 
+We used a fancy unit called [Viewport Widths](https://alligator.io/css/viewport-units/) here. This will ensure that our background takes up the full width of the screen, not it's container. Now this isn't the final version because `height: 100%` doesn't do anything to an element normally. It is usually because its hard for the browser to define how that 100% will be calculated. So, it will be nothing. There is a way around this, and that is setting the `::after` to `position: absolute`
 
 ```css
 .break-wrapper::after{
@@ -177,6 +177,8 @@ The last thing we need to account for is the fact that it is now in front of the
 	z-index: -1;
 }
 ```
+
+### Pseudo Wrap-up
 
 And there we have it, the background is behind our content and taking up the full width of the window. WHEW. Lets show it all together and see what we have got. Don't worry if your code isn't in the exact order, it will work just the same. But if you ARE worried, I suggest you look into [organizing your CSS](https://9elements.com/css-rule-order/) for the reason _why_ my styles are like this.
 
