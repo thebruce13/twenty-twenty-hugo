@@ -43,7 +43,7 @@ description = "This is meta description"
 heading = "Bruce's Backpack of Ideas"
 image = "/images/webpack-render-s.png"
 [params.blog]
-heading = "The premier destination for modern art in Northern Sweden. Open from 10 AM to 6 PM every day during the summer months."
+heading = "Posts from within my backpack. A random collection of thoughts and ideas."
 [params.call_to_action]
 button_label = "Contact Us"
 button_url = "contact"
