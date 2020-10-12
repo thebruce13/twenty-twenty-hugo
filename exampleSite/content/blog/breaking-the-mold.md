@@ -77,7 +77,7 @@ After that we have to ensure that it will take up as much space as it can and se
 }
 ```
 
-The `display: table` is in there because the pseudo-element will be taking up 100% with `position: absolute` and without the table, it has gap at the bottom.
+The `display: table` is in there because the pseudo-element will be taking up all of the available space using `position: absolute`, without the `display: table`, it has gap at the bottom.
 
 When you put it all together it'll look like this:
 
