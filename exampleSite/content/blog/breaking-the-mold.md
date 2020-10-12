@@ -244,7 +244,7 @@ We have a -1 in our `::after` and that puts it behind the text right now. We nee
 	position: absolute;
 	top: 0;
 	left: 50%;
-    z-index: -2; /* Updated to be behind the ::before`
+    z-index: -2; /* Updated to be behind the ::before */
 	transform: translateX(-50%);
     dsplay: block;
 	width: 100vw;
@@ -290,7 +290,7 @@ Now everything is set here is our final CSS:
 	position: absolute;
 	top: 0;
 	left: 50%;
-    z-index: -2; /* Updated to be behind the ::before */
+    z-index: -2;
 	transform: translateX(-50%);
     display: block;
 	width: 100vw;
