@@ -3,6 +3,7 @@ author = ["Bruce"]
 categories = ["Font End"]
 date = 2020-10-11T14:00:00Z
 description = "How to break out of the restrictions of a column when using a framework."
+draft = true
 image = "/images/busting-columns.png"
 tags = ["CSS"]
 title = "Breaking the Wrapper"
@@ -10,15 +11,15 @@ title = "Breaking the Wrapper"
 +++
 ## My Problem with Wrappers
 
-So I often have a container I put my content in that has a max with that's about 1200px. However, sometimes I want to put a solid color or a background image that expands the whole screen. That is where this code comes in.
+So I often have a container that I put my content in with a max width that has a max width. However, sometimes I want to put a background image that expands the whole screen. That is what inspired me to write this.
 
 ## Get to the Code!
 
-I have built a [Codepen](https://codepen.io/brucebrotherton/pen/ZgxGad) that will show the how it is supposed to work and where some edge cases are brought into account. You can pick at that until your heart's content. I'll get into the details below.
+I have built a [Codepen](https://codepen.io/brucebrotherton/pen/ZgxGad) that will show the how it is supposed to work with some edge cases accounted for. You can pick at that until your heart's content. I'll get into the details below.
 
 ## What is Going on Here?
 
-What I wanted to accomplish is having a section where you could put in content and the element behind it would have a background color or image that spanned the whole screen. That is very doable if you break up the wrapper div with something like:
+What I wanted to accomplish is having a section that you could put in content with a background image that spanned the whole screen. That is very doable if you break up the wrapper div with something like:
 
 ```html
 <div class="wrapper">
@@ -34,7 +35,7 @@ What I wanted to accomplish is having a section where you could put in content a
 </div>
 ```
 
-This will get the job done and have all the text line up nicely inside of the established max width of wrapper. But this adds a lot of complexity to the HTML. Thankfully we can fix it with some underused and super powerful attributes, [inherit](https://www.w3schools.com/CSSref/css_inherit.asp) attribute and [pseudo-elements](https://css-tricks.com/almanac/selectors/a/after-and-before/).
+This will get the job done and have all the text line up nicely inside of the established max width of wrapper. However, this adds a lot of complexity to the HTML. Thankfully, we can fix it with some underused and super powerful attributes and selectors, namely the [inherit](https://www.w3schools.com/CSSref/css_inherit.asp) attribute and [pseudo-element](https://css-tricks.com/almanac/selectors/a/after-and-before/) selectors.
 
 The idea we are going to run with is that we can inherit down the background attribute to the pseudo-selectors and set them up to fill the whole width of the window. Ending up with some structure that looks like this
 
