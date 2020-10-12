@@ -189,6 +189,7 @@ And there we have it, the background is behind our content and taking up the ful
 	top: 0;
 	left: 50%;
 	transform: translateX(-50%);
+    dsplay: block;
 	width: 100vw;
 	height: 100%;
 	background-color: inherit; 
