@@ -14,7 +14,7 @@ So I often have a container I put my content in that has a max with that's about
 
 ## Get to the Code!
 
-Okay, so [the CodePen](https://codepen.io/brucebrotherton/pen/ZgxGad) I have built will show the how it is supposed to work and where some edge cases are brought into account. You can pick at that until your heart's content. I'll get into the details below.
+Okay, so I have built a [Codepen](https://codepen.io/brucebrotherton/pen/ZgxGad) that will show the how it is supposed to work and where some edge cases are brought into account. You can pick at that until your heart's content. I'll get into the details below.
 
 ## What is Going on Here?
 
@@ -165,5 +165,7 @@ This will make it match up with our `::after` but there is one thing off, becaus
 	background-color: rgba(0, 0, 0, 0.5);
 }
 ```
+
+Now that you have read this I suggest you see the [Codepen ]( "https://codepen.io/brucebrotherton/pen/ZgxGad")for this project too see how it looks and experiment with the code. You'll also see some efficiencies to make the code a little shorter. 
 
 Side Note: I didn't even think of calling this main image a **FLEX**box until halfway through writing this.
