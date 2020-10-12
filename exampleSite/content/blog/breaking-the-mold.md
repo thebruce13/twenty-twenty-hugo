@@ -273,7 +273,7 @@ We have a -1 in our `::after` and that puts it behind the text right now. We nee
 
 ## Wrapping up the Break
 
-Now everything is set here is our final CSS.
+Now everything is set here is our final CSS:
 
 ```css
 .break-wrapper {
