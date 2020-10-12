@@ -44,6 +44,8 @@ The idea we are going to run with is that we can inherit down the background att
 
 ## But How?
 
+I'll go through the steps and guide you through how I got the content to break the wrapper. Be sure to read the comments in the code sections, they will help you understand a lot. 
+
 ### Set up the wrapper breaker.
 
 Alright, so assuming we have the same structure above, we will need to do some work with the `break-wrapper` class. We will want to make the div hide that it even has a background-image. But only if it has a background-image specified, otherwise we don't need to do anything. So we will use an advanced selector to look if the the element has anything to do with a background defined in it's style. 
