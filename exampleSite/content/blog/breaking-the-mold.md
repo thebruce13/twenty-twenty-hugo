@@ -128,7 +128,21 @@ The `content` field is there because it is required for a pseudo element to show
 }
 ```
 
-Awesome, now we have the background image set on our pseudo-element. But wait, we still can't see it! The problem is, we didn't tell it to take up any space and since the content is blank it won't show, the same way an empty `<div>` won't appear.
+So far our pseduo element looks like this. A good start but not quite done.
+
+```css
+.break-wrapper::after{
+	content: "";
+	background-image: inherit; 
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+```
+
+### Pseudo Placement
+
+Now we have the background image set on our pseudo-element. But wait, we still can't see it! The problem is, we didn't tell it to take up any space and since the content is blank it won't show, the same way an empty `<div>` won't appear.
 
 Lets go ahead and define the size of it. 
 
@@ -157,23 +171,31 @@ Sweet, now this is almost done, but right now it is still anchored to the left s
 }
 ```
 
-So with all this together it will go like this
+The last thing we need to account for is the fact that it is now in front of the content and we need it to be behind it. Luckily there is a CSS attribute just for this, z-index. If we set it to -1 it will put it behind our content and still be visible.
 
 ```css
-.break-wrapper[style*="background-image"]::after {
+.break-wrapper {
+	z-index: -1;
+}
+```
+
+And there we have it, the background is behind our content and taking up the full width of the window. WHEW. Lets show it all together and see what we have got.
+
+```css
+.break-wrapper::after {
 	content: "";
 	position: absolute;
 	top: 0;
 	left: 50%;
 	transform: translateX(-50%);
-	width: 100vw; /* This will ensure it is always the fulll Viewable Width of our screen */
-	height: 100%; /* Take up the whole height of the parent */
+	width: 100vw;
+	height: 100%;
 	background-color: inherit; 
-	background-image: inherit; /* Grabs the background-image from the parent */
+	background-image: inherit;
 	background-position: center center;
-	background-size: cover; /* Takes up the full space of the element */
+	background-size: cover; 
 	background-repeat: no-repeat;
-	z-index: -1; /* Puts the image behind the text */
+	z-index: -1;
 }
 ```
 
