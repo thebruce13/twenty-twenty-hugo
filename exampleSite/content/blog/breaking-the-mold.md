@@ -99,7 +99,7 @@ Now that our `break-wrapper` class has effectively no background showing and can
 
 ### The Pseudo Inheritance
 
-[Sara Cope at CSS-Tricks](https://css-tricks.com/almanac/selectors/a/after-and-before/) has a good intro article about the ::before and ::after pseudo-elements. Specifically, when you would want to use them in relationship to content. We are going to be using both to make a pseudo structure in the HMTL like this
+[Sara Cope at CSS-Tricks](https://css-tricks.com/almanac/selectors/a/after-and-before/) has a good short article about the `::before` and `::after` pseudo-elements. Specifically, when you would want to use and what you would want to use them for. We are going to be using both to make a pseudo structure in the HMTL like this
 
 ```html
 <p class="break-wrapper" style="background-image:url('flexbox.png')>
@@ -113,7 +113,7 @@ The cool thing about this is we don't need to put the pseudo content into the HT
 
 We are going to start with the `::after` pseudo element because it will be the one that displays the background image.
 
-What we want to accomplish is looking to the `::after`'s parent to see what background they are using and bring that into itself. The way we do that is to set the background-image to inherit.
+What we are going to do look at the `::after`'s parent to see what background they are using and bring that into itself. The way we do that is to set the background-image to `inherit`.
 
 ```css
 .break-wrapper::after {
@@ -127,13 +127,13 @@ The `content` field is there because it is required for a pseudo element to show
 
 ```css
 .break-wrapper::after {
-	background-position: center center; /* Puts the image in teh middle of the container. */
+	background-position: center center; /* Puts the image in the middle of the container. */
 	background-size: cover; /* Takes up the full space of the element */
 	background-repeat: no-repeat; /* Makes sure it won't repeat itself */
 }
 ```
 
-So far our pseudo element looks like this. A good start but not quite showing anything.
+So far our pseudo element's code looks like this. Its good start but it still isn't showing anything.
 
 ```css
 .break-wrapper::after{
@@ -147,7 +147,7 @@ So far our pseudo element looks like this. A good start but not quite showing an
 
 ### Pseudo Placement
 
-Now we have the background image set on our pseudo-element. But wait, we still can't see it! The problem is, we didn't tell it to take up any space and since the content is blank it won't show, the same way an empty `<div>` won't appear.
+Now we have the background image set on our pseudo-element. But we still can't see it! The problem is, we didn't tell it to take up any space and since the content is blank it won't show, the same way an empty `<div>` won't appear.
 
 Lets go ahead and define the size of it.
 
@@ -158,7 +158,7 @@ Lets go ahead and define the size of it.
  }
 ```
 
-We used a fancy unit called [Viewport Widths](https://alligator.io/css/viewport-units/) here. This will ensure that our background takes up the full width of the screen, not it's container. Now this isn't the final version because `height: 100%` doesn't do anything to an element normally. It is usually because its hard for the browser to define how that 100% will be calculated. So, it will be nothing. There is a way around this, and that is setting the `::after` to `position: absolute`
+We used a fancy unit called [Viewport Widths](https://alligator.io/css/viewport-units/) here. This will ensure that our background takes up the full width of the screen, not it's container. Now this isn't the final version because `height: 100%` doesn't size an element the way you would think. It is usually because its hard for the browser to define how that 100% will be calculated. So, right now, it will be nothing. There is a way around this, and that is setting the `::after` to `position: absolute`
 
 ```css
 .break-wrapper::after{
@@ -226,7 +226,7 @@ Now this is great, but if you put any light colored text in there it will be nea
     display: block;
 	width: 100vw;
 	height: 100%;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.5); /* could be rgba(255,255,255,0.5) to lighten the image too */
     content: "";
 }
 ```
