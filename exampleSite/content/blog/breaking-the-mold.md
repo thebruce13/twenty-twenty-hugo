@@ -184,10 +184,10 @@ And there we have it, the background is behind our content and taking up the ful
 
 ```css
 .break-wrapper::after {
-	content: "";
 	position: absolute;
 	top: 0;
 	left: 50%;
+    z-index: -1;
 	transform: translateX(-50%);
     dsplay: block;
 	width: 100vw;
@@ -197,58 +197,112 @@ And there we have it, the background is behind our content and taking up the ful
 	background-position: center center;
 	background-size: cover; 
 	background-repeat: no-repeat;
-	z-index: -1;
+    content: "";
 }
 ```
 
-### Almost Done
+### Before the After
 
-Now this is great, but if you put any text in there it will be nearly impossible to read, not to mention fail any accessibility checks. We will need to darken the background image a little to make this work. Good thing there are two pseudo elements we can use, now we can use the `::before` pseudo element.
+Now this is great, but if you put any light colored text in there it will be nearly impossible to read, not to mention fail any accessibility checks. We will need to darken the background image a little to make this work. Good thing there are two pseudo elements we can use, now we can use the `::before` pseudo element. Following the same placement rules as the `::after` we can start the `::before`.
 
 ```css
-.break-wrapper[style*="background"]::before {
-	content: "";
+.break-wrapper::before {
 	position: absolute;
 	top: 0;
 	left: 50%;
 	transform: translateX(-50%);
+    display: block;
 	width: 100vw;
 	height: 100%;
 	background-color: rgba(0, 0, 0, 0.5);
+    content: "";
 }
 ```
 
-This will make it match up with our `::after` but there is one thing off, because it is technically above all our content it makes everything dark, the text included. We will need to add a z-index to it to make it show up properly. We have a -1 in our `::after` and that puts it behind the text right now. We need our `::before` to be behind the text but in front of the image. So we will adjust the `::before` to be -1 and the `::after`to be -2. So with them together it will look like this.
+This will make it match up with our `::after` but there is one thing off, because it is technically above all our content it makes everything dark, the text included. We will need to add a z-index to it to make it show up properly. 
+
+#### Place the Z-Index
+
+We have a -1 in our `::after` and that puts it behind the text right now. We need our `::before` to be behind the text but in front of the image. So the transparent dark background will affect it. To do this we will need to decrease our `::after` to have a z-index of -2 and our `::before` to have a -1. This way they are both behind our text but ordered correctly with each other.
 
 ```css
-.break-wrapper[style*="background-image"]::after {
-	content: "";
+.break-wrapper::after {
 	position: absolute;
 	top: 0;
 	left: 50%;
+    z-index: -2; /* Updated to be behind the ::before`
 	transform: translateX(-50%);
-	width: 100vw; /* This will ensure it is always the fulll Viewable Width of our screen */
-	height: 100%; /* Take up the whole height of the parent */
+    dsplay: block;
+	width: 100vw;
+	height: 100%;
 	background-color: inherit; 
-	background-image: inherit; /* Grabs the background-image from the parent */
+	background-image: inherit;
 	background-position: center center;
-	background-size: cover; /* Takes up the full space of the element */
+	background-size: cover; 
 	background-repeat: no-repeat;
-	z-index: -1; /* Puts the image behind the text */
+    content: "";
 }
 
-.break-wrapper[style*="background"]::before {
-	content: "";
+.break-wrapper::before {
 	position: absolute;
 	top: 0;
 	left: 50%;
+    z-index: -1;
 	transform: translateX(-50%);
+    display: block;
 	width: 100vw;
 	height: 100%;
 	background-color: rgba(0, 0, 0, 0.5);
+    content: "";
 }
 ```
 
-Now that you have read this I suggest you see the [Codepen ]( "https://codepen.io/brucebrotherton/pen/ZgxGad")for this project to see how it looks and experiment with the code. You'll also see some efficiencies to make the code a little shorter as well.
+## Wrapping up the Break
 
-Side Note: I didn't even think of calling this main image a **FLEX**box until halfway through writing this.
+Now everything is set here is our final CSS.
+
+```css
+.break-wrapper {
+	display: table;
+	position: relative;
+    width: 100%;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: 0 1000%;
+	background-size: 0 0; 
+}
+
+.break-wrapper::after {
+	position: absolute;
+	top: 0;
+	left: 50%;
+    z-index: -2; /* Updated to be behind the ::before`
+	transform: translateX(-50%);
+    dsplay: block;
+	width: 100vw;
+	height: 100%;
+	background-color: inherit; 
+	background-image: inherit;
+	background-position: center center;
+	background-size: cover; 
+	background-repeat: no-repeat;
+    content: "";
+}
+
+.break-wrapper::before {
+	position: absolute;
+	top: 0;
+	left: 50%;
+    z-index: -1;
+	transform: translateX(-50%);
+    display: block;
+	width: 100vw;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+    content: "";
+}
+```
+
+There are some final touch ups we could to for efficiencies sake, and if you are interested in that, check out the [Codepen ]( "https://codepen.io/brucebrotherton/pen/ZgxGad")for this project. There you can poke around and see what is going on. Delete parts push it to its limit. Put two inside themselves and see what happens. (it should break but, I've never tried it). That is all for now, hope you found this helpful.
+
+Side Note: I didn't even think of calling the header image **FLEX**box until halfway through writing this.
