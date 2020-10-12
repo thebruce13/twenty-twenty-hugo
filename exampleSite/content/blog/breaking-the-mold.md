@@ -46,6 +46,8 @@ The idea we are going to run with is that we can inherit the background attribut
 </div>
 ```
 
+Example: [https://jsfiddle.net/brucifer906/xkwuyah2/1/](https://jsfiddle.net/brucifer906/xkwuyah2/1/ "https://jsfiddle.net/brucifer906/xkwuyah2/1/")
+
 ## But How?
 
 I'll go through the steps and guide you through how I got the content to break the wrapper. Be sure to read the comments in the code sections (the parts between /* */), they will help you understand a lot.
@@ -63,12 +65,14 @@ Alright, so assuming we have the same structure above, we will need to do some w
 }
 ```
 
+Example: [https://jsfiddle.net/brucifer906/xkwuyah2/2/](https://jsfiddle.net/brucifer906/xkwuyah2/2/ "https://jsfiddle.net/brucifer906/xkwuyah2/2/")
+
 After that we have to ensure that it will take up as much space as it can and serve as an anchor for anything that has the attribute `position: absolute` inside of it, spoiler: it will.
 
 ```css
 .break-wrapper {
 	display: table; /* Makes sure it can contain the pseudo-elements properly */
-	position: relative /* the pseudo-element are position absolute, we need an anchor */
+	position: relative; /* the pseudo-element are position absolute, we need an anchor */
     width: 100%;
 }
 ```
@@ -88,6 +92,8 @@ When you put it all together it'll look like this:
 	background-size: 0 0; 
 }
 ```
+
+Example:  [https://jsfiddle.net/brucifer906/xkwuyah2/3/](https://jsfiddle.net/brucifer906/xkwuyah2/3/ "https://jsfiddle.net/brucifer906/xkwuyah2/3/")
 
 Now that our `break-wrapper` class has effectively no background showing and can be an anchor for our pseudo-elements, we can get cracking on the `::after`
 
@@ -127,7 +133,7 @@ The `content` field is there because it is required for a pseudo element to show
 }
 ```
 
-So far our pseduo element looks like this. A good start but not quite done.
+So far our pseudo element looks like this. A good start but not quite showing anything.
 
 ```css
 .break-wrapper::after{
@@ -160,6 +166,8 @@ We used a fancy unit called [Viewport Widths](https://alligator.io/css/viewport-
 }
 ```
 
+Example: [https://jsfiddle.net/brucifer906/xkwuyah2/4/](https://jsfiddle.net/brucifer906/xkwuyah2/4/ "https://jsfiddle.net/brucifer906/xkwuyah2/4/")
+
 Sweet, now this is almost done, but right now it is still anchored to the left side of the wrapper and sailing way off to the right. In order to get this centered we will need to add a couple rules. While we are at it we will set the `.break-wrapper` to sit at the top of its parent instead of after the content of it.
 
 ```css
@@ -169,6 +177,8 @@ Sweet, now this is almost done, but right now it is still anchored to the left s
     transform: translateX(-50%);
 }
 ```
+
+Example: [https://jsfiddle.net/brucifer906/xkwuyah2/5/](https://jsfiddle.net/brucifer906/xkwuyah2/5/ "https://jsfiddle.net/brucifer906/xkwuyah2/5/")
 
 The last thing we need to account for is the fact that it is now in front of the content and we need it to be behind it. Luckily there is a CSS attribute just for this, z-index. If we set it to -1 it will put it behind our content and still be visible.
 
@@ -189,7 +199,7 @@ And there we have it, the background is behind our content and taking up the ful
 	left: 50%;
     z-index: -1;
 	transform: translateX(-50%);
-    dsplay: block;
+    display: block;
 	width: 100vw;
 	height: 100%;
 	background-color: inherit; 
@@ -200,6 +210,8 @@ And there we have it, the background is behind our content and taking up the ful
     content: "";
 }
 ```
+
+Example: [https://jsfiddle.net/brucifer906/xkwuyah2/6/](https://jsfiddle.net/brucifer906/xkwuyah2/6/ "https://jsfiddle.net/brucifer906/xkwuyah2/6/")
 
 ### Before the After
 
@@ -218,6 +230,8 @@ Now this is great, but if you put any light colored text in there it will be nea
     content: "";
 }
 ```
+
+Example: [https://jsfiddle.net/brucifer906/xkwuyah2/7/](https://jsfiddle.net/brucifer906/xkwuyah2/7/ "https://jsfiddle.net/brucifer906/xkwuyah2/7/")
 
 This will make it match up with our `::after` but there is one thing off, because it is technically above all our content it makes everything dark, the text included. We will need to add a z-index to it to make it show up properly. 
 
@@ -276,9 +290,9 @@ Now everything is set here is our final CSS.
 	position: absolute;
 	top: 0;
 	left: 50%;
-    z-index: -2; /* Updated to be behind the ::before`
+    z-index: -2; /* Updated to be behind the ::before */
 	transform: translateX(-50%);
-    dsplay: block;
+    display: block;
 	width: 100vw;
 	height: 100%;
 	background-color: inherit; 
@@ -302,6 +316,8 @@ Now everything is set here is our final CSS.
     content: "";
 }
 ```
+
+Example: [https://jsfiddle.net/brucifer906/xkwuyah2/9/](https://jsfiddle.net/brucifer906/xkwuyah2/9/ "https://jsfiddle.net/brucifer906/xkwuyah2/9/")
 
 There are some final touch ups we could to for efficiencies sake, and if you are interested in that, check out the [Codepen ]( "https://codepen.io/brucebrotherton/pen/ZgxGad")for this project. There you can poke around and see what is going on. Delete parts push it to its limit. Put two inside themselves and see what happens. (it should break but, I've never tried it). That is all for now, hope you found this helpful.
 
