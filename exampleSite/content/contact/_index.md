@@ -1,10 +1,11 @@
 ---
-title: "Contact"
-bg_image: "images/2020-landscape-2.png"
-# meta description
-description: "This is meta description"
-# save as draft
-draft: false
----
+title: Contact
+bg_image: "/images/web_bg2-banner.jpg"
+description: Email to contact me at.
 
-This is a page with some basic contact information, such as an address and phone number. You might also try a plugin to add a contact form.
+---
+Email me at
+
+[brucebrotherton906@gmail.com](mailto:brucebrotherton906@gmail.com)
+
+ or hit me up on [Twitter](https://twitter.com/brucebrotherton)
