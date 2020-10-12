@@ -61,7 +61,7 @@ enable = true
 [[params.gallery.gallery_item]]
 image = "images/2020-square-2.png"
 [[params.gallery.gallery_item]]
-image = "images/2020-square-1.png"
+image = "/images/chief_skate_blue_vector2-1.png"
 [params.social]
 email = "brucebrotherton906@gmail.com"
 facebook = ""
