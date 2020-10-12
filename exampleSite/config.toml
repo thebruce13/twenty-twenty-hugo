@@ -41,7 +41,7 @@ author = "Themefisher"
 description = "This is meta description"
 [params.banner]
 heading = "Bruce's Backpack of Ideas"
-image = "/images/webpack-render-w.png"
+image = "/images/webpack-render-s.png"
 [params.blog]
 heading = "The premier destination for modern art in Northern Sweden. Open from 10 AM to 6 PM every day during the summer months."
 [params.call_to_action]
