@@ -15,21 +15,21 @@ URL = "contact"
 name = "Contact"
 weight = 1
 [[menu.main]]
-URL = "sample-page"
-name = "Sample Page"
-weight = 5
+name = "T-shirts"
+url = "https://www.teepublic.com/user/thebruce13"
+weight = 2
 [[menu.main]]
 URL = "contact"
 name = "Contact"
-weight = 4
+weight = 5
 [[menu.main]]
 URL = "blog"
 name = "Blog"
-weight = 3
+weight = 4
 [[menu.main]]
 URL = "about"
 name = "About"
-weight = 2
+weight = 3
 [[menu.main]]
 URL = "/"
 name = "Home"
