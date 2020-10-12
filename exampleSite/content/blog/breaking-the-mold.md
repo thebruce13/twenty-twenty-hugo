@@ -139,7 +139,7 @@ Lets go ahead and define the size of it.
  }
 ```
 
-We used a fancy size definition called View Widths here. This will ensure that our background takes up the full width of the screen, not it's container. Now this isn't the final version because `height: 100%` doesn't do anything to an element normally. It is usually because its hard for the browser to define how that 100% will be calculated. So, it will be nothing. There is a way around this, and that is setting the `::after` to `position: absolute` 
+We used a fancy unit called [Viewport Widths](https://alligator.io/css/viewport-units/) here. This will ensure that our background takes up the full width of the screen, not it's container. Now this isn't the final version because `height: 100%` doesn't do anything to an element normally. It is usually because its hard for the browser to define how that 100% will be calculated. So, it will be nothing. There is a way around this, and that is setting the `::after` to `position: absolute` 
 
 ```css
 .break-wrapper::after{
@@ -147,7 +147,15 @@ We used a fancy size definition called View Widths here. This will ensure that o
 }
 ```
 
-We'll be used [View Widths](https://alligator.io/css/viewport-units/) for the width attribute because if we set the width to 100%, it will only be as wide as the parent container, not the window. Now this will give us a background image that sticks outside of our main width but doesn't add any extra HTML to the page.
+Sweet, now this is almost done, but right now it is still anchored to the left side of the wrapper and sailing way off to the right. In order to get this centered we will need to add a couple rules. While we are at it we will set the `.break-wrapper` to sit at the top of its parent instead of after the content of it.
+
+```css
+.break-wrapper{
+	top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+```
 
 So with all this together it will go like this
 
