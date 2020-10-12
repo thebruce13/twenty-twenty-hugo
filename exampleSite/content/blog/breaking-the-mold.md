@@ -14,11 +14,11 @@ So I often have a container I put my content in that has a max with that's about
 
 ## Get to the Code!
 
-Okay, so I have built a [Codepen](https://codepen.io/brucebrotherton/pen/ZgxGad) that will show the how it is supposed to work and where some edge cases are brought into account. You can pick at that until your heart's content. I'll get into the details below.
+I have built a [Codepen](https://codepen.io/brucebrotherton/pen/ZgxGad) that will show the how it is supposed to work and where some edge cases are brought into account. You can pick at that until your heart's content. I'll get into the details below.
 
 ## What is Going on Here?
 
-Okay, so what I wanted to accomplish is having a section where you could put in content and the element behind it would have a background color or image that spanned the whole screen. That is very doable if you break up the wrapper div with something like:
+What I wanted to accomplish is having a section where you could put in content and the element behind it would have a background color or image that spanned the whole screen. That is very doable if you break up the wrapper div with something like:
 
 ```html
 <div class="wrapper">
@@ -34,7 +34,7 @@ Okay, so what I wanted to accomplish is having a section where you could put in 
 </div>
 ```
 
-This will get the job done and have all the text line up nicely inside of the established max width of wrapper. But this adds a lot of complexity to the HTML. Thankfully we can fix it with some underused and super powerful attributes, inherit attribute and pseudo-selectors.
+This will get the job done and have all the text line up nicely inside of the established max width of wrapper. But this adds a lot of complexity to the HTML. Thankfully we can fix it with some underused and super powerful attributes, [inherit](https://www.w3schools.com/CSSref/css_inherit.asp) attribute and [pseudo-elements](https://css-tricks.com/almanac/selectors/a/after-and-before/).
 
 The idea we are going to run with is that we can inherit down the background attribute to the pseudo-selectors and set them up to fill the whole width of the window. Ending up with some structure that looks like this
 
@@ -48,11 +48,11 @@ The idea we are going to run with is that we can inherit down the background att
 
 ## But How?
 
-I'll go through the steps and guide you through how I got the content to break the wrapper. Be sure to read the comments in the code sections, they will help you understand a lot. 
+I'll go through the steps and guide you through how I got the content to break the wrapper. Be sure to read the comments in the code sections, they will help you understand a lot.
 
 ### Set up the wrapper breaker.
 
-Alright, so assuming we have the same structure above, we will need to do some work with the `break-wrapper` class. We will want to make the div hide that it even has a background-image. But only if it has a background-image specified, otherwise we don't need to do anything. So we will use an advanced selector to look if the the element has anything to do with a background defined in it's style. 
+Alright, so assuming we have the same structure above, we will need to do some work with the `break-wrapper` class. We will want to make the div hide that it even has a background-image. But only if it has a background-image specified, otherwise we don't need to do anything. So we will use an [advanced selector](https://www.w3schools.com/cssref/css_selectors.asp) to look if the the element has anything to do with a background defined in it's style.
 
 ```css
 .break-wrapper[style*="background-image"] {
@@ -83,7 +83,7 @@ Now that our `break-wrapper` class has effectively no background showing we can 
 
 Awesome, now we have the background image set on our pseudo-element. But wait, It isn't centered, it starts on the left and ends on the right.
 
-We need to make it so the pseudo element is positions absolutely. And because the .break-wrapper is positioned relative it'll be used as an anchor point for the pseudo-element. 
+We need to make it so the pseudo element is positions absolutely. And because the .break-wrapper is positioned relative it'll be used as an anchor point for the pseudo-element.
 
 ```css
 .break-wrapper[style*="background-image"]::after {
@@ -96,7 +96,7 @@ We need to make it so the pseudo element is positions absolutely. And because th
  }
 ```
 
-We'll be used View Widths for the width attribute because if we set the width to 100%, it will only be as wide as the parent container, not the window. Now this will give us a background image that sticks outside of our main width but doesn't add any extra HTML to the page. 
+We'll be used [View Widths](https://alligator.io/css/viewport-units/) for the width attribute because if we set the width to 100%, it will only be as wide as the parent container, not the window. Now this will give us a background image that sticks outside of our main width but doesn't add any extra HTML to the page.
 
 So with all this together it will go like this
 
@@ -120,7 +120,7 @@ So with all this together it will go like this
 
 ### Almost Done
 
-Now this is great, but if you put any text in there it will be nearly impossible to read, not to mention fail any accessibility checks. We will need to darken the background image a little to make this work. Good thing there are two pseudo elements we can use, now we can use the `::before` pseudo element. 
+Now this is great, but if you put any text in there it will be nearly impossible to read, not to mention fail any accessibility checks. We will need to darken the background image a little to make this work. Good thing there are two pseudo elements we can use, now we can use the `::before` pseudo element.
 
 ```css
 .break-wrapper[style*="background"]::before {
@@ -135,7 +135,7 @@ Now this is great, but if you put any text in there it will be nearly impossible
 }
 ```
 
-This will make it match up with our `::after` but there is one thing off, because it is technically above all our content it makes everything dark, the text included. We will need to add a z-index to it to make it show up properly. We have a -1 in our `::after` and that puts it behind the text right now. We need our `::before` to be behind the text but in front of the image. So we will adjust the `::before` to be -1 and the `::after `to be -2. So with them together it will look like this.
+This will make it match up with our `::after` but there is one thing off, because it is technically above all our content it makes everything dark, the text included. We will need to add a z-index to it to make it show up properly. We have a -1 in our `::after` and that puts it behind the text right now. We need our `::before` to be behind the text but in front of the image. So we will adjust the `::before` to be -1 and the `::after`to be -2. So with them together it will look like this.
 
 ```css
 .break-wrapper[style*="background-image"]::after {
@@ -166,6 +166,6 @@ This will make it match up with our `::after` but there is one thing off, becaus
 }
 ```
 
-Now that you have read this I suggest you see the [Codepen ]( "https://codepen.io/brucebrotherton/pen/ZgxGad")for this project too see how it looks and experiment with the code. You'll also see some efficiencies to make the code a little shorter. 
+Now that you have read this I suggest you see the [Codepen ]( "https://codepen.io/brucebrotherton/pen/ZgxGad")for this project too see how it looks and experiment with the code. You'll also see some efficiencies to make the code a little shorter.
 
 Side Note: I didn't even think of calling this main image a **FLEX**box until halfway through writing this.
