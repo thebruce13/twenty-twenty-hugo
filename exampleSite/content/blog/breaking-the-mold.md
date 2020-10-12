@@ -37,64 +37,114 @@ What I wanted to accomplish is having a section that you could put in content wi
 
 This will get the job done and have all the text line up nicely inside of the established max width of wrapper. However, this adds a lot of complexity to the HTML. Thankfully, we can fix it with some underused and super powerful attributes and selectors, namely the [inherit](https://www.w3schools.com/CSSref/css_inherit.asp) attribute and [pseudo-element](https://css-tricks.com/almanac/selectors/a/after-and-before/) selectors.
 
-The idea we are going to run with is that we can inherit down the background attribute to the pseudo-selectors and set them up to fill the whole width of the window. Ending up with some structure that looks like this
+The idea we are going to run with is that we can inherit the background attribute into the pseudo-selectors and set them up to fill the whole width of the window. Ending up with the HTML structure that looks like this:
 
 ```html
 <div class="wrapper">
 	<p>Some Content</p>
-    <p class="break-wrapper" style="background-image:url('flexbox.png')>Full Width Content</p>
+    <p class="break-wrapper" style="background-image:url('flexbox.png')">Full Width Content</p>
     <p>More Content</p>
 </div>
 ```
 
 ## But How?
 
-I'll go through the steps and guide you through how I got the content to break the wrapper. Be sure to read the comments in the code sections, they will help you understand a lot.
+I'll go through the steps and guide you through how I got the content to break the wrapper. Be sure to read the comments in the code sections (the parts between /* */), they will help you understand a lot.
 
 ### Set up the wrapper breaker.
 
-Alright, so assuming we have the same structure above, we will need to do some work with the `break-wrapper` class. We will want to make the div hide that it even has a background-image. But only if it has a background-image specified, otherwise we don't need to do anything. So we will use an [advanced selector](https://www.w3schools.com/cssref/css_selectors.asp) to look if the the element has anything to do with a background defined in it's style.
+Alright, so assuming we have the same structure above, we will need to do some work with the `break-wrapper` class. First we are going to disguise the element to make it look like it doesn't have a background image at all. 
 
 ```css
-.break-wrapper[style*="background-image"] {
-	display: table; /* Makes sure it can contain the pseudo-elements properly */
-	position: relative /* the psudo-elements are position absolute, we need an anchor */
-    width: 100%;
+.break-wrapper{
 	background-color: transparent; /* Needs to be here so the color won't cover the image. */
 	background-repeat: no-repeat; /* Don't want our image to tile. */
 	background-position: 0 1000%; /* Shove the image waaay out of view */
 	background-size: 0 0; /* Make it 0px high and wide, pretty much invisible */
-	color: #fff;
 }
 ```
 
-Now that our `break-wrapper` class has effectively no background showing we can hand it off to our pseudo-element, `::after`. Again, only if it has a background-image attribute.
+After that we have to ensure that it will take up as much space as it can and serve as an anchor for anything that has the attribute `position: absolute` inside of it, spoiler: it will.
 
 ```css
-.break-wrapper[style*="background-image"]::after {
-	content: "";
-	background-color: inherit; 
-	background-image: inherit; /* Grabs the background-image from the parent */
-	background-position: center center;
-	background-size: cover; /* Takes up the full space of the element */
+.break-wrapper {
+	display: table; /* Makes sure it can contain the pseudo-elements properly */
+	position: relative /* the pseudo-element are position absolute, we need an anchor */
+    width: 100%;
+}
+```
+
+The `display: table` is in there because the pseudo-element will be taking up 100% with `position: absolute` and without the table, it has gap at the bottom.
+
+When you put it all together it'll look like this:
+
+```css
+.break-wrapper {
+	display: table;
+	position: relative;
+    width: 100%;
+	background-color: transparent;
 	background-repeat: no-repeat;
-	z-index: -1; /* Puts the image behind the text */
+	background-position: 0 1000%;
+	background-size: 0 0; 
 }
 ```
 
-Awesome, now we have the background image set on our pseudo-element. But wait, It isn't centered, it starts on the left and ends on the right.
+Now that our `break-wrapper` class has effectively no background showing and can be an anchor for our pseudo-elements, we can get cracking on the `::after`
 
-We need to make it so the pseudo element is positions absolutely. And because the .break-wrapper is positioned relative it'll be used as an anchor point for the pseudo-element.
+### The Pseudo Inheritance
+
+[Sara Cope at CSS-Tricks](https://css-tricks.com/almanac/selectors/a/after-and-before/) has a good intro article about the ::before and ::after pseudo-elements. Specifically, when you would want to use them in relationship to content. We are going to be using both to make a pseudo structure in the HMTL like this
+
+```html
+<p class="break-wrapper" style="background-image:url('flexbox.png')>
+	::before
+    Full Width Content
+    ::after
+</p>    
+```
+
+The cool thing about this is we don't need to put the pseudo content into the HTML on the page. And because we are using them as blank elements they are going to work perfect.
+
+We are going to start with the `::after` pseudo element because it will be the one that displays the background image. 
+
+What we want to accomplish is looking to the `::after`'s parent to see what background they are using and bring that into itself. The way we do that is to set the background-image to inherit. 
 
 ```css
-.break-wrapper[style*="background-image"]::after {
-	position: absolute;
-	top: 0;
-	left: 50%;
-	transform: translateX(-50%);
+.break-wrapper::after {
+	content: ""; /* Necessary attribute for pseudo elements to be valid */
+    display: block; /* Need this so it will respect height and width attributes */
+    background-image: inherit;
+ }
+```
+
+The `content` field is there because it is required for a pseudo element to show, otherwise this will be invalid. But it isn't set to cover its container. We'll want to go ahead and define some more background attributes to make that happen.
+
+```css
+.break-wrapper::after {
+	background-position: center center; /* Puts the image in teh middle of the container. */
+	background-size: cover; /* Takes up the full space of the element */
+	background-repeat: no-repeat; /* Makes sure it won't repeat itself */
+}
+```
+
+Awesome, now we have the background image set on our pseudo-element. But wait, we still can't see it! The problem is, we didn't tell it to take up any space and since the content is blank it won't show, the same way an empty `<div>` won't appear.
+
+Lets go ahead and define the size of it. 
+
+```css
+.break-wrapper::after {
 	width: 100vw; /* This will ensure it is always the fulll Viewable Width of our screen */
 	height: 100%; /* Take up the whole height of the parent */
  }
+```
+
+We used a fancy size definition called View Widths here. This will ensure that our background takes up the full width of the screen, not it's container. Now this isn't the final version because `height: 100%` doesn't do anything to an element normally. It is usually because its hard for the browser to define how that 100% will be calculated. So, it will be nothing. There is a way around this, and that is setting the `::after` to `position: absolute` 
+
+```css
+.break-wrapper::after{
+	position: absolute;
+}
 ```
 
 We'll be used [View Widths](https://alligator.io/css/viewport-units/) for the width attribute because if we set the width to 100%, it will only be as wide as the parent container, not the window. Now this will give us a background image that sticks outside of our main width but doesn't add any extra HTML to the page.
