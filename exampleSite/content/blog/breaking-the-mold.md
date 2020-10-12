@@ -10,11 +10,11 @@ title = "Breaking the Wrapper"
 +++
 ## My Problem with Wrappers
 
-So I often have a container that I put my content in with a max width that has a max width. However, sometimes I want to put a background image that expands the whole screen. That is what inspired me to write this.
+So I often have a container that that has a max width where most of my content resides. However, sometimes I want to put a background image that expands the whole screen and breaks outside of the main column. That is what inspired me to write this.
 
 ## Get to the Code!
 
-I have built a [Codepen](https://codepen.io/brucebrotherton/pen/ZgxGad) that will show the how it is supposed to work with some edge cases accounted for. You can pick at that until your heart's content. I'll get into the details below.
+I have built a [Codepen](https://codepen.io/brucebrotherton/pen/ZgxGad) that will show the how it is supposed to work with some edge cases accounted for. You can pick at that until your heart's content. I'll get into the details below. Also you can [jump to the end](#wrapping-up-the-break) to see the final result.
 
 ## What is Going on Here?
 
