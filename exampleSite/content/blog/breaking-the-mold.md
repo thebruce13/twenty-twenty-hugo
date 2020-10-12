@@ -3,7 +3,6 @@ author = ["Bruce"]
 categories = ["Font End"]
 date = 2020-10-11T14:00:00Z
 description = "How to break out of the restrictions of a column when using a framework."
-draft = true
 image = "/images/busting-columns.png"
 tags = ["CSS"]
 title = "Breaking the Wrapper"
@@ -179,7 +178,7 @@ The last thing we need to account for is the fact that it is now in front of the
 }
 ```
 
-And there we have it, the background is behind our content and taking up the full width of the window. WHEW. Lets show it all together and see what we have got.
+And there we have it, the background is behind our content and taking up the full width of the window. WHEW. Lets show it all together and see what we have got. Don't worry if your code isn't in the exact order, it will work just the same. But if you ARE worried, I suggest you look into [organizing your CSS](https://9elements.com/css-rule-order/) for the reason _why_ my styles are like this.
 
 ```css
 .break-wrapper::after {
