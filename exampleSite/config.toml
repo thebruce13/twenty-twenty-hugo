@@ -59,7 +59,7 @@ title = "About This Site"
 [params.gallery]
 enable = true
 [[params.gallery.gallery_item]]
-image = "images/2020-square-2.png"
+image = "/images/bathhouse_2.jpg"
 [[params.gallery.gallery_item]]
 image = "/images/chief_skate_blue_vector2-1.png"
 [params.social]
