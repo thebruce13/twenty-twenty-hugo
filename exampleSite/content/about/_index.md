@@ -5,15 +5,15 @@ description: A introduction to who Bruce Brotherton is.
 ---
 ## Welcome
 
-![Man asleep in a chair.](/images/18011931_1433347363370118_3383035581737992192_n.jpg "Naps are the best")
+![A man asleep in a chair.](/images/bruce-sleep.jpg "Naps are the best.")
 
 Looks like you caught me sleeping
 
-![Man standing in front of whiteboard with face shield and mask on.](/images/20200920_120013.jpg)
+![Man with face shield and mask in front of whiteboard.](/images/bruce-mask.jpg "Gotta wear your mask!")
 
 There that is better, gotta make sure you've got your mask on when you go outside. Honestly I think masks are great and they show you a bit of personality that you don't get out of regular clothes.
 
-![Man standing outside in front of tress smiling.](/images/2020-09-12-1.jpg)
+![Man outside smiling. ](/images/bruce-face.jpg "Still have a mask. 2020 is crazy.")
 
 But here is my awake face. Anyway.
 
