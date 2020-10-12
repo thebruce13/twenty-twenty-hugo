@@ -319,6 +319,6 @@ Now everything is set here is our final CSS:
 
 Example: [https://jsfiddle.net/brucifer906/xkwuyah2/9/](https://jsfiddle.net/brucifer906/xkwuyah2/9/ "https://jsfiddle.net/brucifer906/xkwuyah2/9/")
 
-There are some final touch ups we could to for efficiencies sake, and if you are interested in that, check out the [Codepen ]( "https://codepen.io/brucebrotherton/pen/ZgxGad")for this project. There you can poke around and see what is going on. Delete parts push it to its limit. Put two inside themselves and see what happens. (it should break but, I've never tried it). That is all for now, hope you found this helpful.
+There are some final touch ups we could to for efficiencies sake, and if you are interested in that, check out the [Codepen ](https://codepen.io/brucebrotherton/pen/ZgxGad)for this project. There you can poke around and see what is going on. Delete parts push it to its limit. Put two inside themselves and see what happens. (it should break but, I've never tried it). That is all for now, hope you found this helpful.
 
 Side Note: I didn't even think of calling the header image **FLEX**box until halfway through writing this.
