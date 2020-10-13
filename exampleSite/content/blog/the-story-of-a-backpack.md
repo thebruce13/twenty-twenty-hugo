@@ -25,4 +25,6 @@ But the main pocket was so big, I would put my Original Xbox in there, the chord
 
 I've since lost this backpack and these images I've lifted off the internet I can't find anymore. So I can't even give a source for them. 
 
-The idea of a backpack for my blog really suits me because you don't know what a person keeps in a backpack, though it has room for a whole heck-of-a-lot. And typically when I reach in to pull something out to show you guys on the web, I'm not sure what I'm grabbing for either. I wanted to make this backpack in 3D but proved to beyond my abelites and I went with a basic Northface one for the imagery here but I got to capture the spirit of this bag that served me through high school.
+The idea of a backpack for my blog I feel really suits me because you don't know what a person keeps in a backpack, though it has room for a whole heck-of-a-lot. And typically when I reach in to pull something out to show you guys on the web, I'm not sure what I'm grabbing for either. 
+
+I wanted to make this backpack in 3D but proved to beyond my abelites and I went with a basic Northface one for the imagery here but I got to capture the spirit of this bag that served me through high school.
