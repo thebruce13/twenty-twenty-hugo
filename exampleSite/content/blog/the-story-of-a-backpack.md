@@ -30,3 +30,5 @@ The idea of a backpack for my blog I feel really suits me because you don't know
 I wanted to make this backpack in 3D but proved to beyond my abilities and I went with a basic Northface one for the imagery here but I got to capture the spirit of this bag that served me through high school. I'll revisit it when I get a little more experience under my belt. 
 
 \[insert bag of current backpack with all its contents laid out.\]
+
+Now a days I rock this convertible bag that can either be a traditional backpack or a satchel. I switched to a satchel in college and was so happy the time I opened up the top and reached in for a pen and paper without having to take it off. So this one fits current me very well. 
