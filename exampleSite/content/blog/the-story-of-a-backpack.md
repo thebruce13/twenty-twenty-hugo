@@ -13,7 +13,7 @@ So why did I pick "Bruce's Backpack" one reason is because way back in the day o
 
 ![](/images/persp-front.jpg) 
 
-It was massive and held all of my stuff. Notepads, textbooks, sketchpads. You name it was put into this bag. The pouches were my favorite because I could load them up with all kinds of goodies. The top pocket held my [Halo 3 Zune](https://gizmodo.com/first-pics-of-the-zune-halo-3-special-edition-259877) for the longest time. I tell ya, they don't make devices like that anymore. 
+It was massive and held all of my stuff. Notepads, textbooks, sketchpads. You name it was put into this bag. The pouches were my favorite because I could load them up with all kinds of goodies. The top side pocket held my [Halo 3 Zune](https://gizmodo.com/first-pics-of-the-zune-halo-3-special-edition-259877) for the longest time. I tell ya, they don't make devices like that anymore. 
 
 ![](/images/detail-frontopen.jpg) 
 
@@ -22,3 +22,7 @@ Look at this awesomeness. It those black patches were to protect the bag from th
 But the main pocket was so big, I would put my Original Xbox in there, the chords and controllers with a couple games. Haul this with my CRT tv off to a friends house and we're playing Halo till the break of dawn. The good ol days, ya know?
 
 ![](/images/top-persp.jpg)
+
+I've since lost this backpack and these images I've lifted off the internet I can't find anymore. So I can't even give a source for them. 
+
+The idea of a backpack for my blog really suits me because you don't know what a person keeps in a backpack, though it has room for a whole heck-of-a-lot. And typically when I reach in to pull something out to show you guys on the web, I'm not sure what I'm grabbing for either. I wanted to make this backpack in 3D but proved to beyond my abelites and I went with a basic Northface one for the imagery here but I got to capture the spirit of this bag that served me through high school.
