@@ -3,6 +3,7 @@ author = ["Bruce"]
 categories = []
 date = 2020-10-12T04:00:00Z
 description = ""
+draft = true
 image = "/images/backpack-in-milk.webp"
 tags = []
 title = "The Story of a Backpack"
