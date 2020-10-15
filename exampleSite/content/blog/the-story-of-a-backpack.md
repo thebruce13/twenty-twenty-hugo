@@ -9,7 +9,7 @@ tags = []
 title = "The Story of a Backpack"
 
 +++
-So why did I pick "Bruce's Backpack" one reason is because way back in the day on [Blogger.com](https://www.blogger.com) I started a blog that went nowhere under the same name. It also had the same premise. But the reason I started that one is because in high school I had the world's coolest backpack.
+So why did I pick "Bruce's Backpack" one reason is because way back in high school on [Blogger.com](https://www.blogger.com) I started a blog that went nowhere under the same name. It also had the same premise. But the reason I started with that name is because in high school I had the world's coolest backpack.
 
 ![](/images/persp-front.jpg)
 
