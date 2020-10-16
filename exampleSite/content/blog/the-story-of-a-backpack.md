@@ -1,6 +1,6 @@
 +++
 author = ["Bruce"]
-categories = []
+categories = ["Rambling"]
 date = 2020-10-14T11:00:00Z
 description = ""
 image = "/images/backpack-in-milk-2.webp"
