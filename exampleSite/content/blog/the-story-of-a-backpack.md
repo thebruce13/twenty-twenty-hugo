@@ -38,4 +38,17 @@ I wanted to make this backpack in 3D but proved to beyond my abilities and I wen
 
 Now a days I rock this convertible bag that can either be a traditional backpack or a satchel. I switched to a satchel in college and was so happy the time I opened up the top and reached in for a pen and paper without having to take it off. So this one fits current me very well.
 
-As you can tell from the books I'm into different things. 
+As you can tell from the books I'm into different things. But typically it has these items.
+
+* Laptop
+* Oldschool Wacom Tablet
+* At least one book
+* Backup Pen (I keep a pen notepad in my pockets)
+* Chords pouch with all the chords I need to charge devices
+* Hand sanitizer
+* bluetooth headphones
+* Cloth Masks
+* Nintendo Switch with Case
+* Reading Tablet (not pictured)
+
+That's all for now. I enjoyed this trip down memory lane. 
