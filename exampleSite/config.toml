@@ -7,7 +7,7 @@ languageName = "En"
 paginate = "6"
 summaryLength = "10"
 theme = "twentytwenty"
-title = "Bruce Brotherton"
+title = "Bruce's Backpack"
 [markup.goldmark.renderer]
 unsafe = true
 [[menu.desktop]]
