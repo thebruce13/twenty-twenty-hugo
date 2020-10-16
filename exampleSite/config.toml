@@ -37,8 +37,8 @@ weight = 1
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 [params]
-author = "Themefisher"
-description = "This is meta description"
+author = "Bruce Brotherton"
+description = "A blog about Web Development, 3D Graphics, Trying to write a novel, and maybe making a video game. Its anything and everyhing I am into."
 [params.banner]
 heading = "Bruce's Backpack of Ideas"
 image = "/images/webpack-render-s.png"

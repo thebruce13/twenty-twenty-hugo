@@ -405,6 +405,26 @@ twentytwenty.modalMenu = {
 }; // twentytwenty.modalMenu
 
 /*	-----------------------------------------------------------------------------------------------
+	Offsite Links
+--------------------------------------------------------------------------------------------------- */
+twentytwenty.offsiteLinks = {
+
+	init: function() {
+		this.addTarget();
+	},
+
+	addTarget: function() {
+		var links = document.querySelectorAll('a');
+		links.forEach( function(item) {
+			var linkURL = item.getAttribute('href');
+			if ( 0 > linkURL.indexOf('brucebrotherton.com') && ( 0 > linkURL.indexOf('brucebrotherton.com') && 0 > linkURL.indexOf('#') ) ) {
+				item.setAttribute("target", "_blank");
+			}
+		} )
+	}
+} // twentytwenty.offsiteLinks
+
+/*	-----------------------------------------------------------------------------------------------
 	Primary Menu
 --------------------------------------------------------------------------------------------------- */
 
@@ -656,6 +676,7 @@ twentytwentyDomReady( function() {
 	twentytwenty.modalMenu.init();            // Modal Menu.
 	twentytwenty.primaryMenu.init();          // Primary Menu.
 	twentytwenty.touchEnabled.init();         // Add class to body if device is touch-enabled.
+	twentytwenty.offsiteLinks.init();         // Add target="_blank" on links offsite.
 } );
 
 /*	-----------------------------------------------------------------------------------------------
