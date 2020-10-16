@@ -417,7 +417,7 @@ twentytwenty.offsiteLinks = {
 		var links = document.querySelectorAll('a');
 		links.forEach( function(item) {
 			var linkURL = item.getAttribute('href');
-			if ( 0 > linkURL.indexOf('brucebrotherton.com') && ( 0 > linkURL.indexOf('brucebrotherton.com') && 0 > linkURL.indexOf('#') ) ) {
+			if ( 0 > linkURL.indexOf('brucebrotherton.com') && ( 0 < linkURL.indexOf('brucebrotherton.com') && 0 > linkURL.indexOf('#') ) ) {
 				item.setAttribute("target", "_blank");
 			}
 		} )
