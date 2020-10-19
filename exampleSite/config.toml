@@ -11,6 +11,10 @@ title = "Bruce's Backpack"
 [markup.goldmark.renderer]
 unsafe = true
 [[menu.desktop]]
+URL = "blog"
+name = "Blog"
+weight = "0"
+[[menu.desktop]]
 URL = "https://www.teepublic.com/user/thebruce13"
 name = "T-Shirts"
 weight = "0"
