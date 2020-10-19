@@ -1,7 +1,7 @@
 baseURL = "https://www.brucebrotherton.com/"
 disableLanguages = []
 disqusShortname = ""
-googleAnalytics = ""
+googleAnalytics = "G-32H9G3NJDD"
 languageCode = "en-us"
 languageName = "En"
 paginate = "6"
