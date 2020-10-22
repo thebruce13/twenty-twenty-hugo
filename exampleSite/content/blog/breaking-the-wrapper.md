@@ -29,7 +29,7 @@ What I wanted to accomplish is having a section that you could put in content wi
 		<p>Full Width Content</p>
     </div>
 </div>
-<div> class="wrapper">
+<div class="wrapper">
 	<p>More Content</p>
 </div>
 ```
