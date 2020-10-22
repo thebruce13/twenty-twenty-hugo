@@ -233,7 +233,7 @@ Now this is great, but if you put any light colored text in there it will be nea
 
 Example: [https://jsfiddle.net/brucifer906/xkwuyah2/7/](https://jsfiddle.net/brucifer906/xkwuyah2/7/ "https://jsfiddle.net/brucifer906/xkwuyah2/7/")
 
-This will make it match up with our `::after` but there is one thing off, because it is technically above all our content it makes everything dark, the text included. We will need to add a z-index to it to make it show up properly. 
+This will make it match up with our `::after` but there is one thing off, because it is technically above all our content it makes everything dark, the text included. We will need to add a z-index to it to make it show up properly.
 
 #### Place the Z-Index
 
