@@ -26,3 +26,7 @@ I want to step you through some of the wierd clunkynesses that I needed to overc
 Using triggers like opening your mouth to start/stop an animation. Unfortnatley I wasn't able to figure that out. Still there is a lot you can do without triggers. We also won't be making any games in Snapchat.  Sorry. 
 
 There is also a lot of "basic" (but super cool) things you can do with Snapchat and if they are related I will link them but I highly suggest you going to the Snapchat Guides and read about them there. Also, picking apart the included projects can shed a lot of light on how to do things. 
+
+## Getting Lens Studio
+
+First you need to go [https://lensstudio.snapchat.com/](https://lensstudio.snapchat.com/ "https://lensstudio.snapchat.com/") and click the **Download** button to get the file and install it.
