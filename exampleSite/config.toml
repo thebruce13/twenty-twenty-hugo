@@ -1,7 +1,7 @@
 baseURL = "https://www.brucebrotherton.com/"
+disableLanguages = []
 disqusShortname = ""
 googleAnalytics = "G-32H9G3NJDD"
-disableLanguages = []
 languageCode = "en-us"
 languageName = "En"
 paginate = "6"
@@ -67,7 +67,7 @@ title = "About This Site"
 [params.gallery]
 enable = true
 [[params.gallery.gallery_item]]
-image = "/images/bathhouse_2.jpg"
+image = "/images/40526394-809999995_render-test-1029201235-s.png"
 [[params.gallery.gallery_item]]
 image = "/images/suzan-slime-10.webp"
 [params.social]
