@@ -3638,7 +3638,8 @@ img[src*="#aligncenter"],
 }
 
 /* Left and right */
-
+img[src*="#alignleft"],
+img[src*="#alignright"],
 .alignleft,
 .alignright {
 	max-width: 50%;
