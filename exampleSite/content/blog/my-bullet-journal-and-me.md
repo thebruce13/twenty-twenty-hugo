@@ -91,7 +91,7 @@ The daily log is really what made this setup shine. It has a method to write dow
 
 \[x\] Completed task
 
-\> Moved to next day
+> Moved to next day
 
 ~~Cancelled~~
 
@@ -117,23 +117,16 @@ There is the "How energized do I feel" meter. Ranging from Depleted to Energized
 The prompt to why I feel that way next to it. I try and list three things every day.
 Then below it we have these prompts that have been shortened to symbols.
 
-* Lightning Bolt
-  * What can I do to feel more eneegized
-* Star
-  * What is one task that I can do today to move me closer to a personal goal.
-* Question Mark
-  * Why is that goal important to me?
-* Smiley face
-  * What is something I am greatful for right now?
+* Lightning Bolt: What can I do to feel more energized
+* Star: What is one task that I can do today to move me closer to a personal goal.
+* Question Mark: Why is that goal important to me?
+* Smiley face: What is something I am grateful for right now?
 
 My older journal had these
 
-* Star
-  * What is a dream I have
-* task box
-  * What is one task I can do to get closer to that dream
-* Exclemation point
-  * Why is this dream important to me.
+* Star: What is a dream I have
+* Task box: What is one task I can do to get closer to that dream
+* Exclamation point: Why is this dream important to me.
 
 I combine the dream and task into one to take up less space and I'm more focused on the task towards the dream than what the dream is.
 
