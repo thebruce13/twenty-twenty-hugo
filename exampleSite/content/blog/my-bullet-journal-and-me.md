@@ -10,9 +10,9 @@ title = "My Bullet Journal and Me"
 +++
 For as long as I can remember I have been forgetting things. Usually by the time I’ve finished hearing something from someone it has exited my mind because something else has taken my attention. You may think I have ADHD, my therapist would disagree. My problem is that there is always a task running in the background, something else to attend to, something else to think about.
 
-There is this chatter of things that I could be doing at any time of the day. What I’ve found to help me quiet the background noise and help me focus is keeping a small notebook on me at all times. When I write down things, I don’t have to rely on my brain to remind me of all the tasks I have going on in the background.
+There is this chatter of things that I could be doing at any time of the day. What I’ve found to help me quiet the background noise and help me focus is keeping a small notebook on me at all times. When I write down things, I don’t have to rely on my brain to remind me of all the tasks I have going on.
 
-I have had carried a [Field Notes](https://fieldnotesbrand.com/) like notebook from [Moleskin](https://us.moleskine.com/en/cahier-journal-black/p0411) probably since 2014. It is a small notebook just that fits just about perfectly in my back pocket. Moleskin calls it a cahier, not ca**S**hier (I learned that while writing this article).
+I have carried a [Field Notes](https://fieldnotesbrand.com/) like notebook from [Moleskin](https://us.moleskine.com/en/cahier-journal-black/p0411) probably since 2014. It is a small notebook that  fits about perfectly in my back pocket. Moleskin calls it a cahier, not ca**S**hier (I learned that while writing this article).
 
 Its compact size and the fact that guys have real pockets (women’s pants are rediculous) lets me keep a notepad and a pen on me wherever I go. Having this notepad I find has a lot of benefits
 
