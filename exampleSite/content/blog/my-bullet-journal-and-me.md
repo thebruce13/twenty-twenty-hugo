@@ -1,7 +1,7 @@
 +++
 author = ["Bruce"]
 categories = ["Productivity"]
-date = 2020-12-01T05:00:00Z
+date = 2020-11-07T05:00:00Z
 description = ""
 draft = true
 image = "/images/notebooks-hero.jpg"
