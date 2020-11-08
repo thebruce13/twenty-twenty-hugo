@@ -174,7 +174,7 @@ This may not work for everyone but it is something that I have found useful over
 
 ***
 
-I have put together a list of links to help you research a little further on things I’ve touched in the article. Full disclosure, these are Amazon Affiliate links and I will be getting a kickback off the sale of the books linked. If you would rather not support the Amazon giant, you are welcome to google them.
+I have put together a list of links to help you research a little further on things I’ve touched in the article. Full disclosure, these are Amazon Affiliate links and I will be getting a kickback off the sale of the books linked. If you would rather not support the Amazon giant, I understand.
 
 ## Resources
 
