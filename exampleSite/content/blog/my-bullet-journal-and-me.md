@@ -91,10 +91,11 @@ The daily log is really what made this setup shine. It has a method to write dow
 
 \[x\] Completed task
 
-> Moved to next day
-> ~~Cancelled~~
+\> Moved to next day
 
-* Note
+~~Cancelled~~
+
+\- Note
 
 There are more things that are in the Bullet Journal method that you can use, these are mine and I use them often.
 
