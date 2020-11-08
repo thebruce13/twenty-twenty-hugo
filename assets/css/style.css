@@ -3642,6 +3642,7 @@ figure.wp-block-table.is-style-stripes {
 	max-width: 50%;
 }
 
+img[src$="#alignleft"],
 .alignleft {
 
 	/*rtl:ignore*/
