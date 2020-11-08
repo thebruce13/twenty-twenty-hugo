@@ -3629,7 +3629,12 @@ figure.wp-block-table.is-style-stripes {
 }
 
 /* Center */
+.entry-content > p > img {
+	margin-left: auto;
+	margin-right: auto
+}
 
+img[src*="#aligncenter"],
 .aligncenter,
 .aligncenter img {
 	margin-left: auto;
@@ -3643,7 +3648,7 @@ figure.wp-block-table.is-style-stripes {
 	max-width: 50%;
 }
 
-img[src$="#alignleft"],
+img[src*="#alignleft"],
 .alignleft {
 
 	/*rtl:ignore*/
@@ -3651,6 +3656,7 @@ img[src$="#alignleft"],
 	margin: 0.3rem 2rem 2rem 2rem;
 }
 
+img[src*="#alignright"]
 .alignright {
 
 	/*rtl:ignore*/
