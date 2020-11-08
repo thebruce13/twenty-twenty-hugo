@@ -91,7 +91,7 @@ The daily log is really what made this setup shine. It has a method to write dow
 
 \[x\] Completed task
 
-> Moved to next day
+ > Moved to next day
 
 ~~Cancelled~~
 
