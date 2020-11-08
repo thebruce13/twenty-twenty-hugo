@@ -49,9 +49,9 @@ The first attempt I got at these were pretty discombobulated and unorganized. Ju
 
 ![Inside of notebook with many crossed off lines.](/images/notebook-penny-inside.jpg)
 
-So it got really hard to use and track what was going on. This also prevented me from referencing it ever. So it failed as an effective tool. I continued to keep it on me because the convinence of having paper and pen was worth having on hand. The first notebook had straight lines and that didn’t jive well with me as I needed space to doodle and write outside the lines. I found a set that had grid paper.
+So it got really hard to use and track what was going on. This also prevented me from referencing it ever. So it failed as an effective tool. I continued to keep it on me because the convenience of having paper and pen was worth having on hand. The first notebook had straight lines and that didn’t jive well with me as I needed space to doodle and write outside the lines. I found a set that had grid paper.
 
-![Notepad page with dates and lists.](/images/notebook-grid.jpg)
+![Notepage with grid paper with dates and list](/images/notebook-grid-1.jpg)
 
 And I stuck with the grid paper for a long time and it worked really well. It allowed me to do gird systems for calendars and line up lists, I was really happy with it.
 
@@ -76,14 +76,15 @@ I tried to use a ribbon, a bookmark, even a rubber band. But with this going int
 
 My Index is updated mostly when I make a special list so I know it is in there. My special lists typically have a mark on the top instead of on the side. And they include books to read, shopping lists, routines, notes from a meeting, pretty much anything that isn't a Daily log.
 
-**Future Log**
-The future log in a Bullet Journal lets you map out the whole year of special events. Unfortunatly with the pocket notebook this takes up too much space and is really hard for me to use because they can last from anywhere between 3 months to a full year. Some months just don’t have a whole lot going on. So I have removed this from my pocket Bullet Journal.
+**Future Log** The future log in a Bullet Journal lets you map out the whole year of special events. Unfortunately with the pocket notebook this takes up too much space and is really hard for me to use because they can last from anywhere between 3 months to a full year. Some months just don’t have a whole lot going on. So I have removed this from my pocket Bullet Journal.
 
-**Monthly Log**
-I use this at the start of every month and mark it on the edge of the page so I can schedule appointments and birthdays that are in that month. This dosen’t replace my calender app on my phone but the backup and speed to look up stuff is great. There is a drawback when something gets canceled I can’t delete it out of the book. Still there is space at the end of the calendar that lets me take notes that affect the month.
+**Monthly Log** I use this at the start of every month and mark it on the edge of the page so I can schedule appointments and birthdays that are in that month. 
 
-**Daily Log**
-The daily log is really what made this setup shine. It has a method to write down tasks and what you are going to do with them. I have modified them to work with my pocket Bullet Journal
+![Notepad page with a month laid out.](/images/notebook-monthly.jpg)
+
+This doesn’t replace my calendar app on my phone but the backup and speed to look up stuff is great. There is a drawback when something gets canceled I can’t delete it out of the book. Still there is space at the end of the calendar that lets me take notes that affect the month.
+
+**Daily Log** The daily log is really what made this setup shine. It has a method to write down tasks and what you are going to do with them. I have modified them to work with my pocket Bullet Journal
 
 \[ \] Task
 
