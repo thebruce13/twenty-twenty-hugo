@@ -41,7 +41,7 @@ So what we need to have is a place to store those thoughts for later when we hav
 
 Then I saw an add from [Draplin Design](http://www.draplin.com/) about his Field Notes pocket books. These fit the bill exactly for having something close that is fast to jot ideas onto. I didn’t buy it right away because I saw something _similar enough_ at the store I worked at and that got it into my hands to try this idea out.
 
-![Cover of notebooks with text "Penny for your thoughts" partially obscured.](/images/notebook-penny.jpg)
+![Cover of notebooks with text "Penny for your thoughts" partially obscured.](/images/notebook-penny.jpg "Penny For your thoughts")
 
 ## Early notebooks
 
