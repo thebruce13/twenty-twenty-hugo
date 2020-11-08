@@ -138,7 +138,7 @@ Lettering for Planners has gotten me inspired to use some fancy text on my journ
 
 So now just the month is fancy. It gives it enough flavor to set the heading apart from the rest of the simple text. I don’t think I’ll ever get the amazing designs that people have in the planners on Instagram. I am focused more on function and speed so that is okay. I’ve tried to experiment with colors because I carry a four colored pen on me usually but, it made it too busy for me to keep track. I chose this pen specifically because the tip is pocket friendly.
 
-### Adam's 
+### Adam's Lists
 
 This book really opened my eyes on making better lists and inspired me to draw more in my journal. The way I see it, if I’m not making a list on the page I might as well doodle.
 
