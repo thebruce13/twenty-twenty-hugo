@@ -109,7 +109,7 @@ I saw an image that showed the _5 Second Journal_ by Mel Robbins’s pages and I
 
 ![Comparison between two note pages.](/images/notebook-5second-compare.jpg)
 
-It really helped while I have a dot grid or grid paper. The one on the left was closer to what is pictured in the 5 Second Journal. I adapted it to the one on the right because drawing a half circle freehand is tough. I used a bottlecap for a long time but I didn’t always have one around. 🤷‍♂️
+The one on the left was closer to what is pictured in the 5 Second Journal. I adapted it to the one on the right because drawing a half circle freehand is tough. I used a bottlecap for a long time but I didn’t always have one around. 🤷‍♂️
 
 The layout is similar and I use symbols to indicate writing prompts.
 
