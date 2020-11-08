@@ -48,7 +48,7 @@ Then I saw an add from [Draplin Design](http://www.draplin.com/) about his Field
 
 The first attempt I got at these were pretty discombobulated and unorganized. Just jotted down notes.
 
-![Inside of notebook with many crossed off lines.](/images/notebook-penny-inside.jpg)
+![Inside of notebook with many crossed off lines.](/images/notebook-penny-inside.jpg){:.float-left}
 
 So it got really hard to use and track what was going on. This also prevented me from referencing it ever. So it failed as an effective tool. I continued to keep it on me because the convinence of having paper and pen was worth having on hand. The first notebook had straight lines and that didn’t jive well with me as I needed space to doodle and write outside the lines. I found a set that had grid paper.
 
