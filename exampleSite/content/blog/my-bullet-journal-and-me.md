@@ -188,33 +188,27 @@ I have put together a list of links to help you research a little further on thi
 
 * [Lettering for Planners by Jillian Reece](https://www.amazon.com/gp/product/1633539253/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1633539253&linkCode=as2&tag=brucebrothert-20&linkId=bc9383dd151e00f22a523a200cf9fc1c)
 * [Every Tool’s a Hammer by Adam Savage](https://www.amazon.com/gp/product/1982113472/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1982113472&linkCode=as2&tag=brucebrothert-20&linkId=9355afb952e57d84f8b4665020ebb62e)
-* Getting Things Done
-  * https://www.amazon.com/gp/product/0143126563/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0143126563&linkCode=as2&tag=brucebrothert-20&linkId=bd2af362deb39dcd6712f47011970aff
-* 5 Second Journal
+* [Getting Things Done by David Allen](https://www.amazon.com/gp/product/0143126563/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0143126563&linkCode=as2&tag=brucebrothert-20&linkId=bd2af362deb39dcd6712f47011970aff)
+* 5 Second Journal from Mel Robbins
   * https://www.amazon.com/gp/product/168261722X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=168261722X&linkCode=as2&tag=brucebrothert-20&linkId=506c47ad8ccdc8b07388e8f6d3e87967
 * Bullet Journal
   * https://www.amazon.com/gp/product/B0797P84CZ/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0797P84CZ&linkCode=as2&tag=brucebrothert-20&linkId=88e067ddf6faff6b479b701e8cbc1d30
 
 ### Apps
 
-* Dropbox Paper
-  * https://www.dropbox.com/paper
-  * iOS:
-  * Andriod:
-* One Note
-  * https://[www.microsoft.com/onenote](http://www.microsoft.com/onenote)
-  * iOS:
-  * Andriod:
-* Evernote
-  * https://www.evernote.com
-  * iOS:
-  * Andriod:
-* Google Calendar
-  * https://calendar.google.com
-  * iOS:
-  * Andriod:
+* [Dropbox Paper](https://www.dropbox.com/paper)
+  * [iOS](https://apps.apple.com/us/app/paper-by-dropbox/id1126623662)
+  * [Android](https://play.google.com/store/apps/details?id=com.dropbox.paper&hl=en_US&gl=US)
+* [One Note](https://www.microsoft.com/onenote)
+  * [iOS](https://apps.apple.com/us/app/microsoft-onenote/id410395246)
+  * [Android](https://play.google.com/store/apps/details?id=com.microsoft.office.onenote&hl=en&gl=us)
+* [Evernote](https://www.evernote.com)
+  * [iOS](https://apps.apple.com/us/app/evernote-notes-organizer/id281796108)
+  * [Android](https://play.google.com/store/apps/details?id=com.evernote&hl=en_US&gl=US)
+* [Google Calendar](https://calendar.google.com)
+  * [iOS](https://apps.apple.com/ca/app/google-calendar/id909319292)
+  * [Android](https://play.google.com/store/apps/details?id=com.google.android.calendar&hl=en_US&gl=US)
 
 ### Additional Resources
 
-* 5 Second Rule, I highly reccomend it to help you kickstart your journey in productivity.
-  * https://www.amazon.com/gp/product/1682612384/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1682612384&linkCode=as2&tag=brucebrothert-20&linkId=b17f1e09ed5a10226a496c3e85a9e02d
+* [5 Second Rule](https://www.amazon.com/gp/product/1682612384/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1682612384&linkCode=as2&tag=brucebrothert-20&linkId=b17f1e09ed5a10226a496c3e85a9e02d), I highly recommend it to help you kickstart your journey in productivity.
