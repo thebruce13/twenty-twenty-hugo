@@ -1,7 +1,7 @@
 +++
 author = ["Bruce"]
 categories = ["Productivity"]
-date = 2020-11-09T15:00:00Z
+date = 2020-11-07T15:00:00Z
 description = ""
 image = "/images/notebooks-hero.jpg"
 tags = []
@@ -45,7 +45,7 @@ So what we need to have is a place to store those thoughts for later when we hav
 
 ## Early notebooks
 
-The first attempt I got at these were pretty discombobulated and unorganized. Just jotted down notes.
+The first attempt I got at these were pretty discombobulated and unorganized. Just sporadic jotted down notes.
 
 ![Inside of notebook with many crossed off lines.](/images/notebook-penny-inside.jpg)
 
@@ -154,7 +154,7 @@ In this book the topic of drawing is explored as part of the making process and 
 
 ![](/images/notebooks-all.jpg)
 
-My pocket notebook is still with me wherever I go and I write in it just about every day. If only to track my mood and gratitude, the things that the 5 Second Journal helps you track. This ritual lets me take a pause before starting everything else in the day. Having the notepad around makes sure that when a great idea pops into my head I can jot it down. 
+My pocket notebook is still with me wherever I go and I write in it just about every day. If only to track my mood and gratitude, the things that the 5 Second Journal helps you track. This ritual lets me take a pause before starting everything else in the day. Having the notepad around makes sure that when a great idea pops into my head I can jot it down.
 
 Like this t-shirt design of mine was in my notepad for a long time before I got the time to make it.
 
