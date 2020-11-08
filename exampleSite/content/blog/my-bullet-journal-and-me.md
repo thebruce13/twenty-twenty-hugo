@@ -152,7 +152,11 @@ In this book the topic of drawing is explored as part of the making process and 
 
 ## Where I am at today
 
-My pocket notebook is still with me wherever I go and I write in it just about every day. If only to track my mood and gratitude, the things that the 5 Second Journal helps you track. This ritual lets me take a pause before starting everything else in the day. Having the notepad around makes sure that when a great idea pops into my head I can jot it down. Like this t-shirt design of mine was in my notepad for a long time before I got the time to make it.
+![](/images/notebooks-all.jpg)
+
+My pocket notebook is still with me wherever I go and I write in it just about every day. If only to track my mood and gratitude, the things that the 5 Second Journal helps you track. This ritual lets me take a pause before starting everything else in the day. Having the notepad around makes sure that when a great idea pops into my head I can jot it down. 
+
+Like this t-shirt design of mine was in my notepad for a long time before I got the time to make it.
 
 [![Design with cactus on its side with the text "Let's Cuddle"](/images/lets-cuddle-design.png)](https://www.teepublic.com/t-shirt/6060090-lets-cuddle-cactus?store_id=125496)
 
