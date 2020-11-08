@@ -105,7 +105,7 @@ It is suggested to put a glossary of terms and symbols at the back of your Bulle
 
 ### My Little 5 Second Journal
 
-I saw an image that showed the 5 Second Journal by Mel Robbins’s pages and I adapted it to my pocket journal.
+I saw an image that showed the _5 Second Journal_ by Mel Robbins’s pages and I adapted it to my pocket journal.
 
 ![Comparison between two note pages.](/images/notebook-5second-compare.jpg)
 
@@ -132,7 +132,7 @@ I combine the dream and task into one to take up less space and I'm more focused
 
 ### Little Lettering for Planners
 
-Lettering for Planners has gotten me inspired to use some fancy text on my journal and at first I really embraced it and did a whole lot of fancy things. Then time became an issue and I’ve slimmed it down considerably.
+_Lettering for Planners_ has gotten me inspired to use some fancy text on my journal and at first I really embraced it and did a whole lot of fancy things. Then time became an issue and I’ve slimmed it down considerably.
 
 ![Notepad with February 2020 at the top.](/images/notebook-fancy-1.jpg)
 
@@ -140,7 +140,7 @@ So now just the month is fancy. It gives it enough flavor to set the heading apa
 
 ### Adam's Lists
 
-This book really opened my eyes on making better lists and inspired me to draw more in my journal. The way I see it, if I’m not making a list on the page I might as well doodle.
+_Every Tool's a Hammer_ really opened my eyes on making better lists and inspired me to draw more in my journal. The way I see it, if I’m not making a list on the page I might as well doodle.
 
 The way Adam approaches lists is that he has a ton of them. He makes a first list that is just a brain dump about every little thing that will be involved in a project. A rough draft list if you will. Then he sets to break that down and make it more manageable to use.
 
