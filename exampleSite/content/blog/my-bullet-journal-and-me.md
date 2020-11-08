@@ -52,11 +52,11 @@ The first attempt I got at these were pretty discombobulated and unorganized. Ju
 
 So it got really hard to use and track what was going on. This also prevented me from referencing it ever. So it failed as an effective tool. I continued to keep it on me because the convinence of having paper and pen was worth having on hand. The first notebook had straight lines and that didn’t jive well with me as I needed space to doodle and write outside the lines. I found a set that had grid paper.
 
-![](/images/notebook-grid.jpg)
+![Notepad page with dates and lists.](/images/notebook-grid.jpg)
 
 And I stuck with the grid paper for a long time and it worked really well. It allowed me to do gird systems for calendars and line up lists, I was really happy with it.
 
-![](/images/notebook-calendar.jpg)
+![Hand drawn calendar in a notebook](/images/notebook-calendar.jpg)
 
 I bought a lot of Moleskin notepads from Barnes and Noble because they were there taunting me to buy them in the store. Still the lines got in the way of making things legible when reading the pages. I finally got my hands on a Moleskin dotted grid and will only buy these from now on. They are the closest to what a official Bullet Journal has and it has enough structure to let me write but enough space for me to draw and get outside the lines.
 
@@ -71,7 +71,7 @@ There are four components to using a Bullet Journal the Index, Future Log, Month
 **Index**
 This is where you write down page numbers where your Future log and months start and end. I improved this a little by marking the edge of the section with my pen. This kind of simulates the way a dictionary has markers that denote the section of the alphebet. For me it is for months.
 
-![](/images/notebook-markers.jpg)
+![Edges of papers with marks to denote sections.](/images/notebook-markers.jpg)
 
 I tried to use a ribbon, a bookmark, even a rubber band. But with this going into and out of my pocket constantly they quickly got lost or torn. I can’t mark my exact page with this method but being brought to the month is close enough and lets me review what is going on that month often.
 
@@ -101,13 +101,13 @@ There are more things that are in the Bullet Journal method that you can use, th
 
 It is suggested to put a glossary of terms and symbols at the back of your Bullet Journal to reference later so you don't forget what each one means.
 
-![](/images/notebook-bullet-example.jpg)
+![Notepad with marked off list items.](/images/notebook-bullet-example.jpg)
 
 ### My Little 5 Second Journal
 
 I saw an image that showed the 5 Second Journal by Mel Robbins’s pages and I adapted it to my pocket journal.
 
-![](/images/notebook-5second-compare.jpg)
+![Comparison between two note pages.](/images/notebook-5second-compare.jpg)
 
 It really helped while I have a dot grid or grid paper. The one on the left was closer to what is pictured in the 5 Second Journal. I adapted it to the one on the right because drawing a half circle freehand is tough. I used a bottlecap for a long time but I didn’t always have one around. 🤷‍♂️
 
@@ -141,9 +141,9 @@ I combine the dream and task into one to take up less space and I'm more focused
 
 Lettering for Planners has gotten me inspired to use some fancy text on my journal and at first I really embraced it and did a whole lot of fancy things. Then time became an issue and I’ve slimmed it down considerably.
 
-![](/images/notebook-fancy-1.jpg)
+![Notepad with February 2020 at the top.](/images/notebook-fancy-1.jpg)
 
-So now just the month is fancy. It gives it enough flavor to set the heading apart from the rest of the simple text. I don’t think I’ll ever get the amazing designs that people have in the planners on instagram. I am focused more on function and speed so that is okay. I’ve tried to experiment with colors because I carry a four colored pen on me usually but, it made it too busy for me to keep track. I chose this pen specifically because the tip is pocket friendly.
+So now just the month is fancy. It gives it enough flavor to set the heading apart from the rest of the simple text. I don’t think I’ll ever get the amazing designs that people have in the planners on Instagram. I am focused more on function and speed so that is okay. I’ve tried to experiment with colors because I carry a four colored pen on me usually but, it made it too busy for me to keep track. I chose this pen specifically because the tip is pocket friendly.
 
 ### Every Tool’s a Hammer by Adam Savage
 
@@ -165,7 +165,7 @@ My pocket notebook is still with me wherever I go and I write in it just about e
 
 ### A technology companion, not a replacement
 
-![](/images/notepads.jpg)
+![Three title pages of notepages with drawings inside them. ](/images/notepads.jpg)
 
 This notebook while great isn’t a replacement for modern technology. It is a semi permanent spot to put thoughts in the moment. If it is a thought I need to keep or get reminded of I need to get it into a calendar or note taking app.
 
@@ -189,10 +189,8 @@ I have put together a list of links to help you research a little further on thi
 * [Lettering for Planners by Jillian Reece](https://www.amazon.com/gp/product/1633539253/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1633539253&linkCode=as2&tag=brucebrothert-20&linkId=bc9383dd151e00f22a523a200cf9fc1c)
 * [Every Tool’s a Hammer by Adam Savage](https://www.amazon.com/gp/product/1982113472/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1982113472&linkCode=as2&tag=brucebrothert-20&linkId=9355afb952e57d84f8b4665020ebb62e)
 * [Getting Things Done by David Allen](https://www.amazon.com/gp/product/0143126563/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0143126563&linkCode=as2&tag=brucebrothert-20&linkId=bd2af362deb39dcd6712f47011970aff)
-* 5 Second Journal from Mel Robbins
-  * https://www.amazon.com/gp/product/168261722X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=168261722X&linkCode=as2&tag=brucebrothert-20&linkId=506c47ad8ccdc8b07388e8f6d3e87967
-* Bullet Journal
-  * https://www.amazon.com/gp/product/B0797P84CZ/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0797P84CZ&linkCode=as2&tag=brucebrothert-20&linkId=88e067ddf6faff6b479b701e8cbc1d30
+* [5 Second Journal from Mel Robbins](https://www.amazon.com/gp/product/168261722X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=168261722X&linkCode=as2&tag=brucebrothert-20&linkId=506c47ad8ccdc8b07388e8f6d3e87967)
+* [Bullet Journal](https://www.amazon.com/gp/product/B0797P84CZ/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0797P84CZ&linkCode=as2&tag=brucebrothert-20&linkId=88e067ddf6faff6b479b701e8cbc1d30)
 
 ### Apps
 
