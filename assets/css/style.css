@@ -3528,6 +3528,7 @@ figure.wp-block-table.is-style-stripes {
 
 .entry-content hr {
 	margin: 4rem auto;
+	clear: both;
 }
 
 /* Font Families ----------------------------- */
