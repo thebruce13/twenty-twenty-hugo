@@ -3629,10 +3629,6 @@ figure.wp-block-table.is-style-stripes {
 }
 
 /* Center */
-.entry-content > p > img {
-	margin-left: auto;
-	margin-right: auto
-}
 
 img[src*="#aligncenter"],
 .aligncenter,
