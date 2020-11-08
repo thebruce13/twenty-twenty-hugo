@@ -172,6 +172,8 @@ I am constantly changing and updating methods that work best for me in this litt
 
 This may not work for everyone but it is something that I have found useful over the years. I hope this article will help you figure out a way for you to organize and remember your thoughts too. That's all for now.
 
+***
+
 I have put together a list of links to help you research a little further on things I’ve touched in the article. Full disclosure, these are Amazon Affiliate links and I will be getting a kickback off the sale of the books linked. If you would rather not support the Amazon giant, you are welcome to google them.
 
 ## Resources
