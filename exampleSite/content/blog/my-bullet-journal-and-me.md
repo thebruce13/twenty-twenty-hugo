@@ -2,7 +2,7 @@
 author = ["Bruce"]
 categories = ["Productivity"]
 date = 2020-11-07T15:00:00Z
-description = ""
+description = "For as long as I can remember I have been forgetting things. This is my method of trying to remember."
 image = "/images/notebooks-hero.jpg"
 tags = []
 title = "My Bullet Journal and Me"
