@@ -2,7 +2,7 @@
 author = ["Bruce"]
 categories = ["Rambling"]
 date = 2020-10-14T11:00:00Z
-description = ""
+description = "A small love letter to the backpack of my childhood."
 image = "/images/backpack-in-milk-2.webp"
 tags = []
 title = "The Story of a Backpack"
@@ -51,4 +51,4 @@ As you can tell from the books I'm into different things. But typically it has t
 * Nintendo Switch with Case
 * Reading Tablet (not pictured)
 
-That's all for now. I enjoyed this trip down memory lane. 
+That's all for now. I enjoyed this trip down memory lane.
